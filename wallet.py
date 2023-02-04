@@ -7,6 +7,8 @@ class Wallet:
         self.balance -= amount
    def deposit(self, amount):
         self.balance += amount
+   def getamount():
+    return self.balance
       
 # create an object of class wallet and set balance to 1000
 wallet = Wallet(1000)
