@@ -7,6 +7,6 @@ class Wallet:
     self.balance -= amount
   def deposit(self, amount):
     self.balance += amount
-  def getamount():
+  def getamount(self):
     return self.balance
       
