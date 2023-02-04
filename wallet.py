@@ -10,15 +10,3 @@ class Wallet:
    def getamount():
     return self.balance
       
-# create an object of class wallet and set balance to 1000
-wallet = Wallet(1000)
-# print the balance
-print(wallet.balance)
-# withdraw 500
-wallet.withdraw(500)
-# print the balance
-print(wallet.balance)
-# deposit 1000
-wallet.deposit(1000)
-# print the balance 
-print(wallet.balance)
